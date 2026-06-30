@@ -128,9 +128,9 @@ jobs:
           "tasks": [
             {
               "task_key": "tarea1_notebook1",
-              "description": "Ejecuta notebook ntbk_1",
+              "description": "Ejecuta notebook ntbk1",
               "notebook_task": {
-                "notebook_path": "/smartdata/scripts/main/ntbk_1",
+                "notebook_path": "/smartdata/scripts/main/ntbk1",
                 "source": "WORKSPACE"
               },
               "existing_cluster_id": "$CLUSTER_ID",
@@ -139,9 +139,9 @@ jobs:
             },
             {
               "task_key": "tarea2_notebook2",
-              "description": "Ejecuta notebook ntbk_2",
+              "description": "Ejecuta notebook ntbk2",
               "notebook_task": {
-                "notebook_path": "/smartdata/scripts/main/ntbk_2",
+                "notebook_path": "/smartdata/scripts/main/ntbk2",
                 "source": "WORKSPACE"
               },
               "existing_cluster_id": "$CLUSTER_ID",
@@ -253,11 +253,11 @@ jobs:
         echo "🎉 ¡Despliegue completado exitosamente!"
         echo ""
         echo "Resumen:"
-        echo "Notebooks desplegados: ntbk_1, ntbk_2"
+        echo "Notebooks desplegados: ntbk1, ntbk2"
         echo "Workflow creado: WF_ADB"
         echo "Tareas configuradas:"
-        echo "   - tarea1_notebook1 (ntbk_1)"
-        echo "   - tarea2_notebook2 (ntbk_2)"
+        echo "   - tarea1_notebook1 (ntbk1)"
+        echo "   - tarea2_notebook2 (ntbk2)"
         echo "Cluster existente: cluster_SD configurado"
         echo ""
         echo "🔗 Accede a tu workspace de Databricks para ver el workflow en la sección 'Workflows'"
